@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+:root {
+  --black-500: rgb(71, 72, 76);
+  --black-300: rgb(119, 119, 119);
+  --black-100: rgb(245, 246, 248);
+
+  --primary-red: rgb(178, 23, 14);
+  --primary-red-light: rgb(207, 28, 19);
+  --primary-red-dark: rgb(126, 17, 11);
+  --primary-pink: rgb(250, 65, 123);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  overflow-y: scroll;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.gray,
+.outline,
+.black,
+.red {
+  transition: all 0.2s;
+}
+
+.outline {
+  background-color: white;
+  border: 1px solid var(--black-300);
+}
+
+.outline:hover {
+  border: 1.5px solid black;
+}
+
+.gray {
+  background-color: var(--black-500);
+  color: white;
+  border: none;
+}
+
+.gray:hover {
+  background-color: var(--black-300);
+}
+
+.black {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.black:hover {
+  background-color: var(--black-500);
+}
+
+.red {
+  background-color: var(--primary-red);
+  color: white;
+  border: none;
+}
+
+.red:hover {
+  background-color: var(--primary-red-light);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 1.5rem auto;
+  padding: 0 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1::after {
+  content: "";
+  display: block;
+  width: 5rem;
+  margin: 0 auto;
+  height: 0.25rem;
+  background-color: var(--primary-pink);
 }

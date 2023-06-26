@@ -1,0 +1,22 @@
+.header h2 {
+  text-align: center;
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.category-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.category-filter button {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}

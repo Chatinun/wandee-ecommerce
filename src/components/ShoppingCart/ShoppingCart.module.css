@@ -1,0 +1,144 @@
+.disable-background {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.off-canvas {
+  z-index: 2;
+  position: fixed;
+  background-color: white;
+  width: 400px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  transform: translateX(0%);
+  transition: all 0.3s;
+}
+
+.menu-disabled {
+  transform: translate(100%);
+  transition: all 0.3s;
+}
+
+.header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.disabled {
+  display: none;
+}
+
+.cart-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.cart-item {
+  padding: 1rem;
+  gap: 1rem;
+  height: 8rem;
+  display: flex;
+  box-shadow: 0px 16px 12px -14px rgba(0, 0, 0, 0.1);
+}
+
+.img-wrapper {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.img-wrapper img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.details {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-name {
+  line-height: 1.5rem;
+}
+
+#remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.counter {
+  display: flex;
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.subtotal {
+  height: 3rem;
+  box-shadow: 0px -19px 18px -14px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkout {
+  height: 3rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.upper-section {
+  overflow-y: auto;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.upper-section::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.upper-section {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.bottom-section p {
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .off-canvas {
+    width: 100%;
+  }
+}

@@ -1,0 +1,6 @@
+[
+  { "name": "Skin Care", "image": "/images/skincare_hero.jpg" },
+  { "name": "Chair", "image": "/images/chair_hero.jpg" },
+  { "name": "Lamp", "image": "/images/lamp_hero.jpg" },
+  { "name": "Sofa", "image": "/images/sofa_hero.jpg" }
+]

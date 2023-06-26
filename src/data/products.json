@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "name": "Wooden Cabinet",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 1559,
+    "category": "Cabinet",
+    "imgs": ["/images/cabinet1_1.jpg", "/images/cabinet1_2.jpg"],
+    "trending": "false"
+  },
+  {
+    "id": 2,
+    "name": "Leather Arm Chair",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 1490,
+    "category": "Chair",
+    "imgs": ["/images/chair1_1.jpg", "/images/chair1_2.jpg"],
+    "trending": "false"
+  },
+  {
+    "id": 3,
+    "name": "Wooden Chair",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 450,
+    "category": "Chair",
+    "imgs": ["/images/chair2_1.jpg"],
+    "trending": "false"
+  },
+  {
+    "id": 4,
+    "name": "Square Wodden Chair",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 500,
+    "category": "Chair",
+    "imgs": ["/images/chair3_1.jpg"],
+    "trending": "false"
+  },
+  {
+    "id": 5,
+    "name": "Sofa Chair",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 1550,
+    "category": "Chair",
+    "imgs": ["/images/chair4_1.jpg"],
+    "trending": "true"
+  },
+  {
+    "id": 6,
+    "name": "High-back Wooden Chair",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 720,
+    "category": "Chair",
+    "imgs": ["/images/chair5_1.jpg", "/images/chair5_2.jpg"],
+    "trending": "true"
+  },
+  {
+    "id": 7,
+    "name": "Hanging Lamp",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 300,
+    "category": "Lamp",
+    "imgs": ["/images/lamp1_1.jpg"],
+    "trending": "false"
+  },
+  {
+    "id": 8,
+    "name": "Desk Lamp",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 250,
+    "category": "Lamp",
+    "imgs": ["/images/lamp2_1.jpg"],
+    "trending": "true"
+  },
+  {
+    "id": 9,
+    "name": "Gaea's CBD Detox Facial Oil",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 500,
+    "category": "Skin Care",
+    "imgs": ["/images/skincare1_1.jpg"],
+    "trending": "true"
+  },
+  {
+    "id": 10,
+    "name": "Misolo Crema Hidratante",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 600,
+    "category": "Skin Care",
+    "imgs": [
+      "/images/skincare2_1.jpg",
+      "/images/skincare2_2.jpg",
+      "/images/skincare2_3.jpg"
+    ],
+    "trending": "true"
+  },
+  {
+    "id": 11,
+    "name": "Misolo Mascarilla",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 400,
+    "category": "Skin Care",
+    "imgs": [
+      "/images/skincare3_1.jpg",
+      "/images/skincare3_2.jpg",
+      "/images/skincare3_3.jpg"
+    ],
+    "trending": "false"
+  },
+  {
+    "id": 12,
+    "name": "Long Comfortable Sofa",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 2599,
+    "category": "Sofa",
+    "imgs": ["/images/sofa1_1.jpg"],
+    "trending": "false"
+  },
+  {
+    "id": 13,
+    "name": "Square Sofa",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 1750,
+    "category": "Sofa",
+    "imgs": ["/images/sofa2_1.jpg"],
+    "trending": "true"
+  },
+  {
+    "id": 14,
+    "name": "Wooden Table",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 559,
+    "category": "Table",
+    "imgs": ["/images/table1_1.jpg"],
+    "trending": "true"
+  },
+  {
+    "id": 15,
+    "name": "Wooden Table with Drawers",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 1099,
+    "category": "Table",
+    "imgs": ["/images/table2_1.jpg"],
+    "trending": "false"
+  },
+  {
+    "id": 16,
+    "name": "TV Stand Table",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "price": 1450,
+    "category": "Table",
+    "imgs": ["/images/table3_1.jpg"],
+    "trending": "true"
+  }
+]

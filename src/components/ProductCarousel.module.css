@@ -1,0 +1,24 @@
+.carousel-nav {
+  display: flex;
+}
+
+.carousel-nav button {
+  background-color: white;
+  border: 1px solid black;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-nav button:nth-child(2) {
+  border-left: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}

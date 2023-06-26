@@ -1,0 +1,70 @@
+.banner {
+  display: flex;
+  height: 300px;
+  overflow: hidden;
+  border: 1px solid var(--black-300);
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.info,
+.image {
+  flex: 1;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0 3rem;
+}
+
+.info h2 {
+}
+
+.info button {
+  text-transform: uppercase;
+  padding: 0.5rem 2rem;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .image {
+    display: none;
+  }
+
+  .banner {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .info > div {
+    align-items: center;
+  }
+}

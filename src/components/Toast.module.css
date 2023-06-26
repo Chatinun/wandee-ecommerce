@@ -1,0 +1,28 @@
+.toast-container {
+  z-index: 99;
+  position: fixed;
+  margin: 10px;
+  width: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.toast {
+  box-sizing: border-box;
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid var(--black-500);
+  border-radius: 0.25rem;
+  position: relative;
+  max-width: 250px;
+}
+
+.toast::after {
+  content: "\00D7";
+  position: absolute;
+  top: 2px;
+  right: 5px;
+}
